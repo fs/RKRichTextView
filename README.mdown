@@ -1,9 +1,8 @@
 # About RKRichTextView
 RKRichTextView is one of the most advanced Editable Rich Text View.
-RKRichTextView is tested to work with with iPhone/iPad OS 5.0 and newer.
+It is tested to work with with iPhone/iPad OS 5.0 and newer.
 
-# Classes
-## How to user
+## How to use
 1. Copy RKRichTextView folder to your project
 2. #import "RKRichTextView.h"
 3. Call: RKRichTextView *richTextView = [[[RKRichTextView alloc] initWithFrame:CGRectMake(20, 100, 280, 200)] autorelease];
