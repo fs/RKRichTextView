@@ -19,7 +19,7 @@ It is tested to work with with iPhone/iPad OS 5.0 and newer.
 Check out each header file for a complete listing of each method.
 
 # Questions
-Feel free to contact renat@farcom-interactive.com if you need any help with RKRichTextView.
+Feel free to contact renat.kurbanov@gmail.com if you need any help with RKRichTextView.
 
 # License
 Copyright (c) 2013 Renat Kurbanov
