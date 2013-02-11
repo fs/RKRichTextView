@@ -3,16 +3,13 @@ RKRichTextView is one of the most advanced Editable Rich Text View.
 It is tested to work with with iPhone/iPad OS 5.0 and newer.
 
 # How to use
-1. Copy <strong>RKRichTextView</strong> folder to your project
-2.
- 
+
 ``` objective-c
+
+// in header
 #import "RKRichTextView.h"
-```
 
-3. 
-
-``` objective-c
+// in code
 	RKRichTextView *richTextView = [[[RKRichTextView alloc] initWithFrame:CGRectMake(20, 100, self.view.frame.size.width-40, 200)] autorelease];
 	[self.view addSubview:richTextView];
 	richTextView.richDelegate = self;
