@@ -22,7 +22,6 @@
     CGAffineTransform rotate;
     BOOL isFirstResponder;
 }
-@synthesize delegate;
 -(void) dealloc{
     [listener release];
     self.toolbarView = nil;
