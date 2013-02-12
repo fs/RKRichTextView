@@ -109,6 +109,8 @@
 - (void) keyboardWillShow:(NSNotification *)notif {
     if (RK_IS_IPHONE) {
         [self showToolbar];
+        if (isFirstResponder==NO)
+            self.toolbarView.hidden = YES;
         return;
     }
     [self performSelector:@selector(removeBar) withObject:nil afterDelay:0.0f];
